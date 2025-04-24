@@ -493,7 +493,6 @@ PRODUCT_PACKAGES += \
     libsettings \
     libssc_default_listener \
     libssd \
-    libstagefright_soft_qtiflacdec \
     libsystem_health_mon \
     libthermalclient \
     libtime_genoff \
@@ -589,7 +588,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libc2d30_bltlib \
     libdrc \
-    libdsd2pcm \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libsurround_3mic_proc \
