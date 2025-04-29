@@ -494,7 +494,6 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssd \
     libsystem_health_mon \
-    libthermalclient \
     libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
@@ -734,6 +733,7 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libssc \
     libswregistrationalgo \
+    libthermalclient \
     libvidhance \
     libvl53l1_daemon_main \
     libwvhidl \
