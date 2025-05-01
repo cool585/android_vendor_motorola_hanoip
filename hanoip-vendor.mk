@@ -807,6 +807,7 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder \
     libmmrtpencoder \
     com.qualcomm.qti.ant@1.0 \
+    CACertService \
     CneApp \
     IWlanService \
     TimeService \
