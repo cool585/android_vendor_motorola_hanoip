@@ -398,6 +398,7 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libbase64 \
+    libcacertclient \
     libcapiv2svacnn \
     libcapiv2vop \
     libcdsp_default_listener \
@@ -517,6 +518,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory@2.3 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
+    vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
@@ -673,7 +675,6 @@ PRODUCT_PACKAGES += \
     libasn1crt \
     libasn1crtx \
     libbtnv \
-    libcacertclient \
     libcamera_nn_stub \
     libcamxfdalgov7 \
     libcamxfdalgov8 \
@@ -701,7 +702,6 @@ PRODUCT_PACKAGES += \
     libkeymasterutils \
     liblbs_core \
     libloc_api_v02 \
-    libloc_socket \
     liblocationservice \
     liblocationservice_glue \
     liblog_vendor \
@@ -764,7 +764,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
-    vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
@@ -907,9 +906,7 @@ PRODUCT_PACKAGES += \
     vl53l1_daemon_main \
     vppservice \
     wifilearner \
-    xtra-daemon \
-    xtwifi-client \
-    xtwifi-inet-agent
+    xtra-daemon
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
