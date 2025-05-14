@@ -118,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hanoip/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/motorola/hanoip/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/motorola/hanoip/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
-    vendor/motorola/hanoip/proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc \
     vendor/motorola/hanoip/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/motorola/hanoip/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/motorola/hanoip/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
@@ -490,9 +489,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
-    libsensorslog \
     libsettings \
-    libssc_default_listener \
     libssd \
     libsystem_health_mon \
     libtime_genoff \
@@ -509,7 +506,6 @@ PRODUCT_PACKAGES += \
     qcrild_librilutils \
     qtibus \
     qtimutex \
-    sensors.moto \
     libasphere \
     unnhal-acc-hta \
     vendor.qti.data.factory@2.0 \
@@ -722,6 +718,7 @@ PRODUCT_PACKAGES += \
     libqtikeymaster4 \
     libril-qc-hal-qmi \
     libsensorcal \
+    libsensorslog \
     libslimclient \
     libsmemlog \
     libsns_device_mode_stub \
@@ -732,6 +729,7 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libsoc_helper \
     libssc \
+    libssc_default_listener \
     libswregistrationalgo \
     libthermalclient \
     libvidhance \
@@ -740,6 +738,7 @@ PRODUCT_PACKAGES += \
     libxtadapter \
     libxtwifi_server_protocol \
     libxtwifi_server_protocol_uri_v3 \
+    sensors.moto \
     sensors.ssc \
     sensors.tof.vl53l1 \
     unnhal-acc-adreno \
@@ -769,8 +768,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.qtiradio@2.5 \
     vendor.qti.hardware.radio.qtiradio@2.6 \
-    vendor.qti.hardware.wifi.wifilearner@1.0 \
-    vendor.qti.hardware.wigig.netperftuner@1.0 \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
     libVC1Dec \
@@ -806,6 +803,12 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder \
     libmmrtpencoder \
     com.qualcomm.qti.ant@1.0 \
+    libarcsoft_calibverify_TriCamera \
+    libarcsoft_tricam_calibration \
+    libarcsoft_tricam_verification \
+    libarcsoftbase \
+    libarcsoftcalibration_jni \
+    libarcsoftverification_jni \
     CACertService \
     CneApp \
     IWlanService \
@@ -905,7 +908,6 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vl53l1_daemon_main \
     vppservice \
-    wifilearner \
     xtra-daemon
 
 PRODUCT_PACKAGES += \
