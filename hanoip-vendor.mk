@@ -886,7 +886,6 @@ PRODUCT_PACKAGES += \
     init.mmi.qrtr-lookup \
     init.qti.chg_policy \
     ipacm-diag \
-    irsc_util \
     loc_launcher \
     lowi-server \
     mlid \
