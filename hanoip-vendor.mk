@@ -298,6 +298,7 @@ PRODUCT_PACKAGES += \
     libssc \
     libswregistrationalgo \
     libvidhance \
+    libvidhance_stabilizer \
     libvl53l1_daemon_main \
     sensors.moto \
     sensors.ssc \
