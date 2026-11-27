@@ -737,6 +737,8 @@ PRODUCT_PACKAGES += \
     libswregistrationalgo \
     libthermalclient \
     libvidhance \
+    libvidhance_stabilizer \
+    libvidhance_face_stabilizer \
     libvl53l1_daemon_main \
     libwvhidl \
     libxtadapter \
